@@ -1,0 +1,12 @@
+# WoW addon sources are read by a Lua interpreter and by Blizzard's TOC
+# parser, neither of which cares about line endings. Pin LF so the repo,
+# the working tree and any packaged release stay byte-identical, and so a
+# global core.autocrlf=true cannot rewrite them on checkout.
+* text=auto eol=lf
+
+*.lua  text eol=lf
+*.toc  text eol=lf
+*.xml  text eol=lf
+*.md   text eol=lf
+.gitignore    text eol=lf
+.gitattributes text eol=lf

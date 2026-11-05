@@ -1,0 +1,10 @@
+## Interface: 16001, 120105, 120000
+## Title: Forever UI Scale
+## Notes: Push the global UI scale below Blizzard's slider floor. Slider, exact-value box, presets and /uis.
+## Author: Jesper Falkenby
+## Version: 1.0.0
+## SavedVariables: ForeverUIScaleDB
+## X-Category: Miscellaneous
+## X-Credits: Concept credited to zamtin's LowerUIScale (curseforge.com/wow/addons/loweruiscale); this implementation shares no code with it.
+
+ForeverUIScale.lua
